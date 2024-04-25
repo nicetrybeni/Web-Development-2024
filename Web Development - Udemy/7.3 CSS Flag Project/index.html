@@ -6,7 +6,43 @@
   <title>CSS Flag Project</title>
   <style>
     /* Write your CSS Code here */
-    
+    .flag{
+      position: relative;
+      background-color: red;
+      width: 900px;
+      height: 600px;
+    }
+    .rectangol{
+      background-color: blue;
+      position: absolute;
+      top: 22%;
+      width: 100%;
+      height: 300px;
+    }
+    .cirkol{
+      position: absolute;
+      border-radius: 50%;
+      background-color: white;
+      position: absolute;
+      left:  40%;
+      top: 30%;
+      width: 200px;
+      height: 200px;
+    }
+    .flag > p{
+      margin: 0;
+      font-size: 70px;
+      color: white;
+      text-align: center;
+    }
+    .flag > div > div > p{
+      text-align: center;
+      position: fixed;
+      top: 15%;
+      left: 21%;
+      font-size: 70px;
+    }
+    /* The code above was made by me without searching or reading anything its a huge improvement */
   </style>
 </head>
 
@@ -22,10 +58,12 @@ https://appbrewery.github.io/flag-of-laos/
 
 <body>
   <div class="flag">
+    <div class="rectangol"></div>
+    <div class="cirkol"></div>
     <p>The Flag</p>
     <div>
       <div>
-        <p>of Laos</p>
+        <p>of <br> Laos</p>
       </div>
     </div>
   </div>
